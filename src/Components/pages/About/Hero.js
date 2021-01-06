@@ -13,7 +13,7 @@ const AboutHero = props => {
               <p className="hero-content_text">Our Goal is To provide our clients with excellent, dependable and affordable home care solutions.</p>
                 </div>
                 <div className="col-md-5">
-                <Image alt='about' name='client' />
+                <Image alt='about' name='client.png' />
                 </div>
             </div>
         </div>
