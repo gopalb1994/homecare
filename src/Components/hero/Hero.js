@@ -19,10 +19,10 @@ const Hero = ({ topText, largeHeading, buttonText,heroClass, image }) => {
               <h1 class="hero-title animate fadeInLeft delay-600">
                 <span>{largeHeading}</span>
               </h1>
-              <Button btnLink="/" btnClass="button-press" buttonText="About" />
+              <Button btnLink="/about" btnClass="button-press" buttonText="About" />
 
               <Button
-                btnLink="/"
+                btnLink="/contact"
                 btnClass="button-contact"
                 buttonText={"Contact"}
               />

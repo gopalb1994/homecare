@@ -1,17 +1,15 @@
 import React from "react";
 import Layout from "../Components/Layout/Layout";
-import Hero from "../Components/hero/Hero";
+import Services from "../Components/pages/About/Services";
+import AboutHero from "../Components/pages/About/Hero";
+import AboutSection from "../Components/pages/About/AboutSection";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Hero
-      heroClass ="hero-half"
-        buttonText="about us"
-        largeHeading="Dream Home Care LLC"
-        topText="Better Service For Everybody"
-        image="background"
-      />
+      <AboutHero />
+      <AboutSection />
+      <Services/>
     </Layout>
   );
 };

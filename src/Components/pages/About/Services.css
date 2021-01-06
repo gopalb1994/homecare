@@ -1,0 +1,45 @@
+.background_services_section{
+    background-color: rgb(255, 166, 0);
+}
+.services_parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+.services_child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.services_child p{
+    max-width: 300px;
+    margin-top: 10px;
+    line-height: 1.6rem;
+
+}
+.services_child h3{
+    margin-top: 10px;
+}
+.services_child img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.services_parent{
+    flex-wrap: wrap;
+
+}
+.services_child{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.services_child p{
+    max-width: 100%;
+}
+}
