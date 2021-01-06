@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero
-      heroClass ="hero-fullScreen"
+      heroClass ="hero-half"
         buttonText="about us"
         largeHeading="Dream Home Care LLC"
         topText="Better Service For Everybody"

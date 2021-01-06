@@ -6,9 +6,9 @@ import Button from "../Buttons/Button";
 
 import "./hero.css";
 
-const Hero = ({ topText, largeHeading, buttonText, image }) => {
+const Hero = ({ topText, largeHeading, buttonText,heroClass, image }) => {
   return (
-    <BackgroundImages class="hero" name={image}>
+    <BackgroundImages class={heroClass} name={image}>
       <div class="hero-container overlay">
         <div className="container">
           <div className="row">

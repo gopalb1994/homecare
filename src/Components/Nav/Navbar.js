@@ -12,16 +12,7 @@ const Navbar = () => {
 
   const closeMobileMenu = () => setClick(false);
 
-  const changeNavbar = () => {
-    if (window.scrollY >= 170) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-    console.log(navbar);
-  };
-
-  window.addEventListener("scroll", changeNavbar);
+  
 
   return (
     <>
