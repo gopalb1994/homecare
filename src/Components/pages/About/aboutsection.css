@@ -1,6 +1,8 @@
 .background_about_section {
   background-color: #fff;
   color:  rgb(255, 166, 0);
+  height: 48vh;
+  margin-top: 50px;
 }
 .about_parent {
   display: flex;
