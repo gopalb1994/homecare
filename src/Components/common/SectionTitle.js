@@ -18,7 +18,7 @@ const SectionTitle = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-6 p-3">
+        <div className="col-md-6 p-3 d-none d-lg-block">
           <div className="image">
             <Image name="mission" />
           </div>
@@ -26,12 +26,12 @@ const SectionTitle = () => {
       </div>
       {/* Vision */}
       <div className="row py-5">
-        <div class="col-lg-6 p-3">
+        <div class="col-lg-6 p-3 d-none d-lg-block">
           <div className="image">
             <Image name="vision" />
           </div>
         </div>
-        <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <div class="section-title ">
             <h2>Our Vision</h2>
             <p>
