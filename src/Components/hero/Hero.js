@@ -6,20 +6,24 @@ import Button from "../Buttons/Button";
 
 import "./hero.css";
 
-const Hero = ({ topText, largeHeading, buttonText,heroClass, image }) => {
+const Hero = ({ topText, largeHeading, buttonText, heroClass, image }) => {
   return (
     <BackgroundImages class={heroClass} name={image}>
       <div class="hero-container overlay">
         <div className="container">
           <div className="row">
-            <div className="col-md-9 col-12">
+            <div className="col-md-9 order-1">
               <p class="animate fadeInLeft delay-400">
                 <span>{topText}</span>
               </p>
               <h1 class="hero-title animate fadeInLeft delay-600">
                 <span>{largeHeading}</span>
               </h1>
-              <Button btnLink="/about" btnClass="button-press" buttonText="About" />
+              <Button
+                btnLink="/about"
+                btnClass="button-press"
+                buttonText="About"
+              />
 
               <Button
                 btnLink="/contact"
@@ -27,7 +31,7 @@ const Hero = ({ topText, largeHeading, buttonText,heroClass, image }) => {
                 buttonText={"Contact"}
               />
             </div>
-            <div className="col-md-3 col-12 my-auto 	d-none d-md-block">
+            <div className="col-md-3 col-12 my-auto col-sm-pull-3">
               <Image name="dream" />
             </div>
           </div>
