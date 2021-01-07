@@ -7,6 +7,11 @@
     width: 100%;
 } */
 
+.hero-img {
+    margin: 5px;
+    max-width: 200px;
+}
+
 .hero-fullScreen {
     height: 94vh;
     background-position: 50% 50%;
@@ -65,7 +70,7 @@
     background: rgba(255, 255, 255, 0.479);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 655px) {
     .hero-container {
         height: 100%;
     }
@@ -113,7 +118,7 @@
 .hero-title {
     color: rgb(56, 56, 56);
     font-family: 'Playfair Display', serif;
-    font-size: 12vw;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 1.1;
@@ -125,7 +130,7 @@
     text-align: left;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 655px) {
     .hero-title {
         font-size: 5rem;
     }
@@ -135,6 +140,9 @@
     .button-press {
         font-size: 2rem;
         padding: 20px 60px;
+    }
+    .hero-img {
+        max-width: 250px;
     }
    
 }

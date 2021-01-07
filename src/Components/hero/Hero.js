@@ -31,7 +31,7 @@ const Hero = ({ topText, largeHeading, buttonText, heroClass, image }) => {
                 buttonText={"Contact"}
               />
             </div>
-            <div className="col-md-3 col-12 my-auto col-sm-pull-3">
+            <div className="col-md-3 col-12 my-auto col-sm-pull-3 hero-img">
               <Image name="dream" />
             </div>
           </div>
